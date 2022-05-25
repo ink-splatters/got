@@ -14,6 +14,9 @@
 
 ![Tests](https://github.com/melbahja/got/workflows/Test/badge.svg)
 
+## ⚠️ Temporary branch ⚠️ 
+This is a temporary branch, for private use,  which fixes upstream issue with compilation on Darwin. It contains changes incompatible with upstream: modules renamed for the tool to be installed using `go install`. The branch will be removed when / if  the fix to upstream is merged.
+
 ## Comparison
 
 Comparison in cloud server:
@@ -42,30 +45,9 @@ sys 0m1.970s
 
 ## Installation
 
-#### Download and install the latest [release](https://github.com/melbahja/got/releases):
 ```bash
-# go to tmp dir.
-cd /tmp
-
-# Download latest version.
-curl -sfL https://git.io/getgot | sh
-
-# Make the binary executable.
-chmod +x /tmp/bin/got
-
-# Move the binary to your PATH
-sudo mv /tmp/bin/got /usr/bin/got
+go get github.com/ink-splatters/got/cmd/got@v0.0.0-tmp-darwin-fix
 ```
-
-#### Or Go ahead compile it yourself:
-```bash
-go install github.com/melbahja/got/cmd/got@latest
-```
-
-#### Or from the AUR
-Install [`got`](https://aur.archlinux.org/packages/got/) for the latest release version or `got-git` for the latest development version. 
-
-> **Note:** these packages are not maintained by melbahja
 
 ## Command Line Tool Usage
 
