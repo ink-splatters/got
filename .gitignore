@@ -2,3 +2,5 @@ dist/
 coverage.out
 *.dat
 *.output
+.idea
+.DS_Store
