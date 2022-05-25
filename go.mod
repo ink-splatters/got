@@ -8,4 +8,5 @@ require (
 	gitlab.com/poldi1405/go-ansi v1.1.0
 	gitlab.com/poldi1405/go-indicators v1.0.0
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
+	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 )
