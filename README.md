@@ -46,7 +46,7 @@ sys 0m1.970s
 ## Installation
 
 ```bash
-go install github.com/ink-splatters/got/cmd/got@v0.0.0-tmp-darwin-fix
+go install github.com/ink-splatters/got/cmd/got@v0.1.0-tmp-darwin-fix
 ```
 
 ## Command Line Tool Usage
