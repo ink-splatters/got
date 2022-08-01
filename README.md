@@ -12,7 +12,11 @@
 	<a href="#license">License</a>
 </p>
 
-![Tests](https://github.com/melbahja/got/workflows/Test/badge.svg)
+## This is a fork of [melbahja/got](https://github.com/melbahja/got.git)
+
+Use the upstream instead.
+
+![Tests](https://github.com/ink-splatters/got/workflows/Test/badge.svg)
 
 ## Comparison
 
@@ -42,7 +46,7 @@ sys 0m1.970s
 
 ## Installation
 
-#### Download and install the latest [release](https://github.com/melbahja/got/releases):
+#### Download and install the latest [release](https://github.com/ink-splatters/got/releases):
 ```bash
 # go to tmp dir.
 cd /tmp
@@ -59,13 +63,13 @@ sudo mv /tmp/bin/got /usr/bin/got
 
 #### Or Go ahead compile it yourself:
 ```bash
-go install github.com/melbahja/got/cmd/got@latest
+go install github.com/ink-splatters/got/cmd/got@latest
 ```
 
 #### Or from the AUR
 Install [`got`](https://aur.archlinux.org/packages/got/) for the latest release version or `got-git` for the latest development version. 
 
-> **Note:** these packages are not maintained by melbahja
+> **Note:** these packages are not maintained by ink-splatters
 
 ## Command Line Tool Usage
 
@@ -107,7 +111,7 @@ You can use Got to download large files in your go code, the usage is simple as 
 ```bash
 package main
 
-import "github.com/melbahja/got"
+import "github.com/ink-splatters/got"
 
 func main() {
 
@@ -122,7 +126,7 @@ func main() {
 
 ```
 
-For more see [PkgDocs](https://pkg.go.dev/github.com/melbahja/got).
+For more see [PkgDocs](https://pkg.go.dev/github.com/ink-splatters/got).
 
 ## How It Works?
 
@@ -131,4 +135,4 @@ Got takes advantage of the HTTP range requests support in servers [RFC 7233](htt
 
 ## License
 
-Got is provided under the [MIT License](https://github.com/melbahja/got/blob/master/LICENSE) © Mohammed El Bahja.
+Got is provided under the [MIT License](https://github.com/ink-splatters/got/blob/master/LICENSE) © Mohammed El Bahja.
